@@ -1,0 +1,34 @@
+{
+  "name": "vitest-react-browser",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.6.3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/browser": "file:vitest-browser-0.32.2.tgz",
+    "@vitest/coverage-c8": "^0.24.5",
+    "typescript": "^4.8.4",
+    "vite": "^4.3.9",
+    "vitest": "file:vitest-0.32.2.tgz"
+  },
+  "xstackblitz": {
+    "startCommand": "npm run test:stackblitz"
+  }
+}
