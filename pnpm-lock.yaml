@@ -2949,7 +2949,7 @@ packages:
     dev: true
 
   file:vitest-0.32.2.tgz(@vitest/browser@0.32.2):
-    resolution: {integrity: sha512-ha6h027vLrHCdq6F4mEOTW8z5PrMxUHeKrPfiRQ+zUd83bwK//EKPpHlEzWO46jsMaDbNYhGYXR23c8aw0XrpA==, tarball: file:vitest-0.32.2.tgz}
+    resolution: {integrity: sha512-ro80d5a3hpo81BLkgDy+j2H36+fCNLeA6I7kDBp3H1EnOQRoyH1vS6onPY/zqjGLcC5l5ufckon4NwtEwIsLdg==, tarball: file:vitest-0.32.2.tgz}
     id: file:vitest-0.32.2.tgz
     name: vitest
     version: 0.32.2
@@ -3017,7 +3017,7 @@ packages:
     dev: true
 
   file:vitest-browser-0.32.2.tgz(rollup@2.79.1)(vitest@0.32.2):
-    resolution: {integrity: sha512-1yz26S29xEyjx1XZvytHJsOoaLKuz2iSYQUDz7Pe13O56MC7ptjoNr0VMnRnlt+Xy/YLi0kwUPmtft82JCviOw==, tarball: file:vitest-browser-0.32.2.tgz}
+    resolution: {integrity: sha512-y0fzTim/2OHX188u4oqL/7DrDbBuAy/oTvPfzL6LH1UtfZpAX6cQNk7AbkBtPzMgTii3TtPlq5LuutMLZp5I+Q==, tarball: file:vitest-browser-0.32.2.tgz}
     id: file:vitest-browser-0.32.2.tgz
     name: '@vitest/browser'
     version: 0.32.2

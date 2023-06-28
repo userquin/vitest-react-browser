@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -29,6 +28,6 @@
     "vitest": "file:vitest-0.32.2.tgz"
   },
   "xstackblitz": {
-    "startCommand": "npm run test:stackblitz"
+    "startCommand": "npm run test"
   }
 }
